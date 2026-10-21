@@ -31,6 +31,3 @@ curl -u staff:Staff123! 'http://localhost:8080/api/employees?page=0&size=10&sort
 
 ## Test
 Run `mvn test`. The test suite includes an application context smoke test; add controller/service tests as you extend the project.
-
-## Notes
-This is a learning portfolio project, not a production-ready HR system. For production, use external identity management, environment-based credentials, database migrations, audit logging, and stronger operational controls.
